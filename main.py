@@ -41,6 +41,5 @@ inp = input('Europe floor?')
 usf = int(inp) + 1
 print('US floor', usf)
 
-width = 15
-height = 12.0
-print(height / 3)
+
+
