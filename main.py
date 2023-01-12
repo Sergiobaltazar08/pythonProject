@@ -18,8 +18,10 @@
 # First basic module phyton, define variables
 # "str" change the variable "int" to "String"
 
+
+
 nombre = 'Sergio'
-edad = 33
+edad = 25
 print( 'Hola mundo, soy ' + nombre + ' y tengo ' +str(edad) + ' años')
 
 #we can save the information in the variable like this
@@ -27,3 +29,18 @@ print( 'Hola mundo, soy ' + nombre + ' y tengo ' +str(edad) + ' años')
 nombre = 'David'
 text = 'Hola mundo, soy ' + nombre + ' y tengo ' +str(edad) + ' años'
 print(text)
+
+#User Input: we can instruct Python to pause and read data from the user using the imput() function
+#the input function return the string
+
+nam = input('Who are you? ') #we need to write the name in the console example : Sergio
+print('Welcome', nam)
+
+# with input() we can add number the we can use other operator to operate with int.
+inp = input('Europe floor?')
+usf = int(inp) + 1
+print('US floor', usf)
+
+width = 15
+height = 12.0
+print(height / 3)
