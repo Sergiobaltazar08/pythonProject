@@ -13,7 +13,6 @@ else:
     print('es mayor de edad')
 
 # Program to prompt the user for hours and rate per hour to compute gross pay.
-
 xh = input("Enter Hours: ")
 xr = input("Enter rate: ")
 xp = xh + xr
