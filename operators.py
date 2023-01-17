@@ -17,3 +17,12 @@ xh = input("Enter Hours: ")
 xr = input("Enter rate: ")
 xp = xh + xr
 print("pay:",xp)
+
+
+#Correctly to print "Yes" if x = 0 and y = 10
+x=0
+y= 10
+if 0 == x:
+    if y == 10:
+        print("Yes")
+
