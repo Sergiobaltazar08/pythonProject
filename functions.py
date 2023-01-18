@@ -72,9 +72,29 @@ greet('en')
 greet('es')
 greet('fr')
 
-#
+#we can retur the informations
 print('------------------------------')
 
+def greet(lang) :
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return'Bongjour'
+    else:
+        return 'Hello'
+
+print(greet('en'),'Glenn')
+print(greet('es'),'Sally')
+print(greet('fr'),'Michael')
+
+#We can define more than one parmeter in the function definition
+print('------------------------------')
+def addtwo(a ,b):
+    added = a + b
+    return added
+
+data = addtwo(3, 5)
+print(data)
 
 #What will the following Python program print out?:
 print('------------------------------')
