@@ -146,3 +146,36 @@ while True:
     count = count + 1
 average = total / count
 print('Average: ', average)
+
+# Best Friends: String and Lists
+print('------------------------------------')
+abc = 'With three words'
+stuff = abc.split()
+print(stuff)
+print(len(stuff))
+print(stuff[0])
+print('------------------------------------')
+for w in stuff:
+    print(w)
+
+# of Spaces is not relevant in the list
+print('------------------------------------')
+line = 'a lot                       of spaces'
+etc = line.split()
+print(etc)
+line = 'first;second;third'
+thing = line.split()
+print(thing)
+print(len(thing))
+thing = line.split(';')
+print(thing)
+print(len(thing))
+
+# The Double Split Pattern
+# Sometimes we split a line one way, and then grab one of the pieces of the line and split that piece again
+print('------------------------------------')
+words = 'His e-mail is q-lar@freecodecamp.org'
+pieces = words.split()
+parts = pieces[3].split('-')
+n = parts[1]
+print(n)
