@@ -1,0 +1,7 @@
+My file example
+Name        : Sergio Baltazar
+email       : sergio@gmail.com.bo
+Name Courser: Python DevOps
+Course      : Python
+email       : python@gmail.com.bo
+Date        : 01/26/2023
