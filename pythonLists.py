@@ -91,3 +91,58 @@ print(t[1:3])
 print(t[:4])
 print(t[3:])
 print(t[:])
+
+# List Methods
+print('------------------------------------')
+x = list()
+print(type(x))
+print(dir(x))
+
+# Building a List from Scratch
+# We can create an empty list and then add elements using the append method
+print('------------------------------------')
+stuff = list()
+stuff.append('book')
+stuff.append(99)
+print(stuff)
+
+stuff.append('cookie')
+print(stuff)
+
+# I Something in  a List?
+# Python provides two operators that let you check if an item is in a list
+# These are logical operators that return True or False
+print('------------------------------------')
+some = [1, 9, 21, 10, 16]
+print(9 in some)
+print(15 in some)
+print(20 not in some)
+
+# Lists are in Order
+# The sort method (unlike in string) means "sort yourself"
+print('------------------------------------')
+friends = ['Joseph', 'Glenn', 'Sally']
+friends.sort()
+print(friends)
+print(friends[1])
+
+# Built-in Functions and List
+print('------------------------------------')
+nums = [3, 41, 12, 9, 74, 15]
+print(len(nums))
+print(max(nums))
+print(min(nums))
+print(sum(nums))
+print(sum(nums)/len(nums))
+
+print('------------------------------------')
+total = 0
+count = 0
+while True:
+    inp = input('Enter a number: ')
+    if inp == 'done' : break
+    value = float(inp)
+    total = total + value
+    count = count + 1
+average = total / count
+print('Average: ', average)
